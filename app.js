@@ -20,31 +20,31 @@ const posts = [
     {
         title:"title",
         content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur.",
-        img:"immage",
+        img:"images/ciambellone.jepg",
         tags:["tag1","tag2"]
     },
     {
         title:"title",
         content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur.",
-        img:"immage",
+        img:"images/cracker_barbabietola.jepg",
         tags:["tag1","tag2"]
     },
     {
         title:"title",
         content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur.",
-        img:"immage",
+        img:"images/pane_fritto_dolce.jepg",
         tags:["tag1","tag2"]
     },
     {
         title:"title",
         content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur.",
-        img:"immage",
+        img:"images/pasta_barbabietola.jepg",
         tags:["tag1","tag2"]
     },
     {
         title:"title",
         content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur.",
-        img:"immage",
+        img:"images/torta_paesana.jpeg",
         tags:["tag1","tag2"]
     },
 ]
