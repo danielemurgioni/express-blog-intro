@@ -6,7 +6,7 @@ const app = express();
 const port = 3000;
 
 //creo la rotta madre del blog
-app.get("/", (req,res) =>{
+app.get("/", (req, res)=>{
     res.send("Server del mio blog")
 })
 
@@ -48,3 +48,8 @@ const posts = [
         tags:["tag1","tag2"]
     },
 ]
+
+// rotta per i post
+app.get("/bacheca", (req, res)=>{
+    res.send(posts)
+})
