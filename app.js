@@ -18,32 +18,32 @@ app.listen(port, () =>{
 //creo un array di oggetti
 const posts = [
     {
-        title:"title1",
-        content:"content",
+        title:"title",
+        content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur.",
         img:"immage",
         tags:["tag1","tag2"]
     },
     {
-        title:"title2",
-        content:"content",
+        title:"title",
+        content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur.",
         img:"immage",
         tags:["tag1","tag2"]
     },
     {
-        title:"title3",
-        content:"content",
+        title:"title",
+        content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur.",
         img:"immage",
         tags:["tag1","tag2"]
     },
     {
-        title:"title4",
-        content:"content",
+        title:"title",
+        content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur.",
         img:"immage",
         tags:["tag1","tag2"]
     },
     {
-        title:"title5",
-        content:"content",
+        title:"title",
+        content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur.",
         img:"immage",
         tags:["tag1","tag2"]
     },
@@ -53,3 +53,6 @@ const posts = [
 app.get("/bacheca", (req, res)=>{
     res.send(posts)
 })
+
+//creo un asset statico
+app.use(express.static("public"));
