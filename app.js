@@ -14,3 +14,37 @@ app.get("/", (req,res) =>{
 app.listen(port, () =>{
     console.log(`Il Server è in ascolto nella porta ${port}`)
 })
+
+//creo un array di oggetti
+const posts = [
+    {
+        title:"title1",
+        content:"content",
+        img:"immage",
+        tags:["tag1","tag2"]
+    },
+    {
+        title:"title2",
+        content:"content",
+        img:"immage",
+        tags:["tag1","tag2"]
+    },
+    {
+        title:"title3",
+        content:"content",
+        img:"immage",
+        tags:["tag1","tag2"]
+    },
+    {
+        title:"title4",
+        content:"content",
+        img:"immage",
+        tags:["tag1","tag2"]
+    },
+    {
+        title:"title5",
+        content:"content",
+        img:"immage",
+        tags:["tag1","tag2"]
+    },
+]
